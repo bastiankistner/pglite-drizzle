@@ -1,5 +1,5 @@
 {
-	"name": "~",
+	"name": "pglite-drizzle-frachter",
 	"version": "0.0.17",
 	"module": "./dist/es/index.js",
 	"type": "module",
