@@ -23,6 +23,7 @@ import { processQueryResults } from "./relation-query-parser"
  */
 function transformToJsonb(sql: string): string {
 	return sql
+		.replace(/json_build_array\(/g, "jsonb_build_array(")
 		.replace(/json_agg\(/g, "jsonb_agg(")
 		.replace(/::json\b/g, "::jsonb")
 }
