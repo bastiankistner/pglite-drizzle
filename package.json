@@ -1,6 +1,6 @@
 {
-	"name": "pglite-drizzle",
-	"version": "0.0.15",
+	"name": "pglite-drizzle-frachter",
+	"version": "0.0.16",
 	"module": "./dist/es/index.js",
 	"type": "module",
 	"repository": "https://github.com/Makisuo/pglite-drizzle",
